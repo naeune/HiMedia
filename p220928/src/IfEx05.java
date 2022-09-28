@@ -5,8 +5,9 @@ public class IfEx05 {
 
 		// 랜덤 값 생성
 		int randomValue = (int)(Math.random() * 5) + 1;
+		// Math.random() 메소드에서 출력 가능한 범위 (0 <= x < 1)
 		// n을 곱했을 때 나오는 값의 정수 부분은 n-1까지
-		// 1~45 출력 -> * 45 + 1
+		// 1~45 출력 -> (Math.random() * 45) + 1
 		System.out.println("랜덤 값 >> " + randomValue);
 		
 		// 강제 형 변환
