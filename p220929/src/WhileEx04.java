@@ -1,0 +1,23 @@
+/*
+ * [continue]
+ * - 반복문 내에서 조건과 함께 사용
+ * - 의미 : 특정 라인(continue 아래 코드)을 실행에서 제외
+ */
+public class WhileEx04 {
+	public static void main(String[] args) {
+
+		int idx = 0;
+		
+		while (idx < 10) {
+			idx++;
+			
+			if (idx % 2 == 1) { // 홀수
+				continue;
+			}
+			
+			 System.out.println("idx >> " + idx); // 특정 라인(continue 아래 코드
+			// 짝수만 출력
+		}
+	}
+
+}

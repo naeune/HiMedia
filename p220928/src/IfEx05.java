@@ -27,6 +27,8 @@ public class IfEx05 {
 		// 1개의 if문에 조건 5개 (else 포함)
 		*/
 		
+		// 비효율적, 반복되는 코드를 수정하는 것 -> 리팩토링
+		
 		System.out.println(randomValue + "번이 나왔습니다.");
 	}
 

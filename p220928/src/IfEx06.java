@@ -6,6 +6,7 @@ public class IfEx06 {
 		int score = 75;
 		
 		// true 조건을 만날 때까지 위 -> 아래로 검사
+		// true 조건을 만나면 그 if문의 블록을 수행하고 탈출
 		if (score >= 90) {
 			System.out.println("점수가 90~100점 입니다.");
 			System.out.println("등급은 A입니다.");

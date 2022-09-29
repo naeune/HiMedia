@@ -12,7 +12,7 @@ public class IfQuiz04 {
 		
 		Scanner input = new Scanner(System.in);
 		int score = input.nextInt();
-		char grade = 0;
+		char grade = ' ';
 		
 		input.close();
 		

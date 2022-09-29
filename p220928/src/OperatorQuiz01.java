@@ -2,6 +2,11 @@ import java.util.Scanner;
 public class OperatorQuiz01 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * [문제] 사용자에게 정수 2개를 입력 받은 후 큰 값 출력
+		 * 삼항 연산자 이용
+		 */
 
 		Scanner input = new Scanner(System.in);
 		
