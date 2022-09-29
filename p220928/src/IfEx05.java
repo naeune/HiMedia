@@ -22,8 +22,9 @@ public class IfEx05 {
 			System.out.println("3번이 나왔습니다.");
 		else if (randomValue == 4)
 			System.out.println("4번이 나왔습니다.");
-		else
+		else 
 			System.out.println("5번이 나왔습니다.");
+		// 1개의 if문에 조건 5개 (else 포함)
 		*/
 		
 		System.out.println(randomValue + "번이 나왔습니다.");
