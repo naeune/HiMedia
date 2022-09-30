@@ -10,7 +10,7 @@ public class WhileQuiz01 {
 		while (idx < 10) {
 			idx++;
 			
-			if (idx % 2 == 0) {
+			if (idx % 2 == 0) { // continue를 안쓰면 코드 직관성이 높아짐
 				System.out.println("idx >> " + idx);
 			}
 			
