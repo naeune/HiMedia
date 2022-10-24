@@ -1,39 +1,29 @@
 import java.util.Scanner;
 
 public class Quiz01 {
+	
+	public static int factorial(int num) {
+		if(num == 1)
+			return 1;
+		else 
+			return num * factorial(num - 1);
+	}
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
+ 		Scanner input = new Scanner(System.in);
+ 		int userValue;
 
-		System.out.print("1~10 사이의 정수 입력 : ");
-		int userValue = input.nextInt();
-
-		if (userValue >= 1 && userValue <= 10) {
-			int factorial = 1;
-
-			for (int i = 1; i <= userValue; i++) {
-				factorial *= i;
-			}
-
-			System.out.println(userValue + "! = " + factorial);
-
-		} else if (userValue < 1 || userValue > 10) {
-
-			while (userValue < 1 || userValue > 10) {
-				System.out.print("1~10 사이의 정수 입력 : ");
-				userValue = input.nextInt();
-			}
+		while(true) {
+			System.out.print("1~10 사이의 정수 입력 : ");
+			userValue = input.nextInt();
 			
-			int factorial = 1;
-			for (int i = 1; i <= userValue; i++) {
-				factorial *= i;
+			if(userValue >= 1 && userValue <= 10) {
+				break;
 			}
-			
-			System.out.println(userValue + "! = " + factorial);
-			
-
 		}
+		
+		System.out.println(userValue + "! = " + factorial(userValue));
 
 		input.close();
 	}
