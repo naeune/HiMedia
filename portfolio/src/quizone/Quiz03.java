@@ -1,3 +1,4 @@
+package quizone;
 class ArrayStack {
 	
 	// 멤버변수 = 객체변수(인스턴스 변수)

@@ -11,8 +11,8 @@ public class AnimalInfo {
 	}
 	
 	public void showAnimalInfo() {
-		System.out.println("name >> " + name);
-		System.out.println("age >> " + age);
+		System.out.println("name >> " + this.name);
+		System.out.println("age >> " + this.age);
 		System.out.println();
 	}
 	

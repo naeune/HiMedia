@@ -1,3 +1,4 @@
+package quizone;
 import java.util.Scanner;
 
 public class Quiz01 {
